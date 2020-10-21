@@ -4,5 +4,6 @@
 @Library("pipeline-automation-lib")_
 
 Map config = [:]
+config.buildDir="image"
 
 buildDockerImage(config)
